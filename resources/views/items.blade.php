@@ -3,7 +3,7 @@
 <div class="row justify-content-center">
     @if ($items->count() > 0)
         @foreach ($items as $item)
-        {{-- <div class="card">
+        {{-- <div class="card" style="margin:25px;">
             <img id="image" style="width: 120px; height: 240px;" src="{{$item->Image}}"> 
             <p>{{$item->Name}}</p>
             <form method="POST" action="{{route('item.buy', ['hash' => $item->hash])}}">
